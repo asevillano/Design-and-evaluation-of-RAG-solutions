@@ -60,6 +60,7 @@ Contents
 
 [8.3. Synthetic Q&A pairs generated](#8.3.-Synthetic-Q&A-pairs-generated)
 
+<a name="1.-RAG-Project-Assurance"></a>
 # 1. RAG Project Assurance
 
 The aim of this document is to reflect the recommendations to build a RAG (Retrieval-Augmented Generation) solution following the best practices.
