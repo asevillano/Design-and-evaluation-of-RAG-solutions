@@ -1,0 +1,12 @@
+.venv
+.env
+.vscode
+RAG_Project_Insurance.ipynb
+project_assurance.ipynb
+.xlsx
+.docx
+.bak
+.txt
+.html
+.pyc
+.gitignore

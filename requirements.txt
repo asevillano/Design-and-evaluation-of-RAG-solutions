@@ -1,0 +1,11 @@
+azure-ai-documentintelligence
+azure-core
+azure-search-documents
+beautifulsoup4
+dotenv
+langchain-text-splitters
+nbimporter
+nbformat
+openai
+re
+tiktoken
