@@ -1,66 +1,65 @@
 Contents
 
-[1. RAG Project Assurance](#1.-RAG-Project-Assurance)
+[1. RAG Project Assurance](#1-rag-project-assurance)
 
-[2. Preparation phase and document analysis](#2.-Preparation-phase-and-document-analysis)
+[2. Preparation phase and document analysis](#2-preparation-phase-and-document-analysis)
 
-[2.1. Document collection for knowledge base](#2.1.-Document-collection-for-knowledge-base)
+[2.1. Document collection for knowledge base](#21-document-collection-for-knowledge-base)
 
-[2.1.1. Document analysis](#2.1.1.-Document-analysis)
+[2.1.1. Document analysis](#211-document-analysis)
 
-[2.1.2. Sub-document (or section) analysis](#2.1.2.-Sub-document-(or-section)-analysis)
+[2.1.2. Sub-document (or section) analysis](#212-sub-document-or-section-analysis)
 
-[2.1.3. Duplicate documents](#2.1.3.-Duplicate-documents)
+[2.1.3. Duplicate documents](#213-duplicate-documents)
 
-[3. Chunk processing](#3.-Chunk-processing)
+[3. Chunk processing](#3-chunk-processing)
 
-[3.1. Chunk documents](#3.1.-Chunk-documents)
+[3.1. Chunk documents](#31-chunk-documents)
 
-[3.1.1. References](#3.1.1.-References)
+[3.1.1. References](#311-references)
 
-[3.2. Chunk enrichment](#3.2.-Chunk-enrichment)
+[3.2. Chunk enrichment](#32-chunk-enrichment)
 
-[3.3. Embed chunks and metadata](#3.3.-Embed-chunks-and-metadata)
+[3.3. Embed chunks and metadata](#33-embed-chunks-and-metadata)
 
-[4. Search and retrieval](#4.-Search-and-retrieval)
+[4. Search and retrieval](#4-search-and-retrieval)
 
-[4.1. Azure AI Search configuration](#4.1.-Azure-AI-Search-configuration)
+[4.1. Azure AI Search configuration](#41-azure-ai-search-configuration)
 
-[4.2. Search retrieval and ranking](#4.2.-Search-retrieval-and-ranking)
+[4.2. Search retrieval and ranking](#42-search-retrieval-and-ranking)
 
-[4.3. Search results re-ranking](#4.3.-Search-results-re-ranking)
+[4.3. Search results re-ranking](#43-search-results-re-ranking)
 
-[4.4. Search orchestration](#4.4.-Search-orchestration)
+[4.4. Search orchestration](#44-search-orchestration)
 
-[5. Testing and evaluation](#5.-Testing-and-evaluation)
+[5. Testing and evaluation](#5-testing-and-evaluation)
 
-[5.1. Testing search results](#5.1.-Testing-search-results)
+[5.1. Testing search results](#51-testing-search-results)
 
-[5.2. Automatic generation of synthetic Q&A pairs](#5.2.-Automatic-generation-of-synthetic-Q&A-pairs)
+[5.2. Automatic generation of synthetic Q&A pairs](#52-automatic-generation-of-synthetic-qa-pairs)
 
-[5.3. Testing end-to-end answer quality](#5.3.-Testing-end-to-end-answer-quality)
+[5.3. Testing end-to-end answer quality](#53-evaluate-answer-quality)
 
-[5.3.1. Evaluation techniques](#5.3.1.-Evaluation-techniques)
+[5.3.1. Evaluation techniques](#531-evaluation-techniques)
 
-[5.3.2	Testing the end-to-end process](#5.3.2-Testing-the-end-to-end-process)
+[5.3.2	Testing the end-to-end process](#532testing-the-end-to-end-process)
 
-[6. Summary of recommendations](#6.-Summary-of-recommendations)
+[6. Summary of recommendations](#6-summary-of-recommendations)
 
-[6.1. Recommendations related to issues detected](#6.1.-Recommendations-related-to-issues-detected)
+[6.1. Recommendations related to issues detected](#61-recommendations-related-to-issues-detected)
 
-[6.2. Recommendations related to improvements](#6.2.-Recommendations-related-to-improvements)
+[6.2. Recommendations related to improvements](#62-recommendations-related-to-improvements)
 
-[7. List of code snippets](#7.-List-of-code-snippets)
+[7. List of code snippets](#7-list-of-code-snippets)
 
-[8. Appendices](#8.-Appendices)
+[8. Appendices](#8-appendices)
 
-[8.1. Section classification](#8.1.-Section-classification)
+[8.1. Section classification](#81-section-classification)
 
-[8.2. Possible duplicate documents](#8.2.-Possible-duplicate-documents)
+[8.2. Possible duplicate documents](#82-possible-duplicate-documents)
 
-[8.3. Synthetic Q&A pairs generated](#8.3.-Synthetic-Q&A-pairs-generated)
+[8.3. Synthetic Q&A pairs generated](#83-synthetic-qa-pairs-generated)
 
-<a name="1.-RAG-Project-Assurance"></a>
 # 1. RAG Project Assurance
 
 The aim of this document is to reflect the recommendations to build a RAG (Retrieval-Augmented Generation) solution following the best practices.
