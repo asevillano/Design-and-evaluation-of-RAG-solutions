@@ -72,7 +72,7 @@ The following diagram represents the reference standard process that encompasses
 
 # 2. Preparation phase and document analysis
 
-Before starting to build the solution, it is important to assess the data that will be used both as a data source.
+Before starting to build the solution, it is important to assess the data that will be used both as a data source. There is a synthetic knowledge base provided in the `data_in` folder, which can be used to go through all the steps in this document. In case it's preferred to generate a different knowledge base with other characteristics, we have provided a notebook that can be leveraged for this purpose. It contains all the prompts that were used to generate the knowledge base that is provided, but can be modified to generate data for a different use case or industry. The notebook can be found [here](./2.1/generate-synthetic-documents.ipynb).
 
 ## 2.1. Document collection for knowledge base
 
